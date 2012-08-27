@@ -1,0 +1,79 @@
+$def with (rmail,erro1,err11)
+<link rel="stylesheet" type="text/css" media="screen" href="/static/css/bootstrap.css" />
+<link rel="stylesheet" href="/static/slidershow/css/style.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="/static/js/slidershow.js"></script>
+<script type="text/javascript" src="/static/js/jquery-1.4.2.js"></script>
+<body>
+  <div class="container-fluid">
+    <div class="sidebar">
+    <!--  侧边栏...-->
+
+    <br>
+    <br>
+
+<div id="msg_slideshow" class="msg_slideshow">
+			<div id="msg_wrapper" class="msg_wrapper">
+				</div>
+			<div id="msg_controls" class="msg_controls"><!-- right has to animate to 15px, default -110px -->
+				<a href="#" id="msg_grid" class="msg_grid"></a>
+				<a href="#" id="msg_prev" class="msg_prev"></a>
+				<a href="#" id="msg_pause_play" class="msg_pause"></a><!-- has to change to msg_play if paused-->
+				<a href="#" id="msg_next" class="msg_next"></a>
+			</div>
+			<div id="msg_thumbs" class="msg_thumbs"><!-- top has to animate to 0px, default -230px -->
+					<div class="msg_thumb_wrapper">
+					<a href="#"><img src="/static/slidershow/images/thumbs/1.jpg" alt="/static/slidershow/images/1.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/2.jpg" alt="/static/slidershow/images/2.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/3.jpg" alt="/static/slidershow/images/3.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/4.jpg" alt="/static/slidershow/images/4.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/5.jpg" alt="/static/slidershow/images/5.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/6.jpg" alt="/static/slidershow/images/6.jpg"/></a>
+					</div>
+					<div class="msg_thumb_wrapper" style="display:none;">
+					<a href="#"><img src="/static/slidershow/images/thumbs/7.jpg" alt="/static/slidershow/images/7.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/8.jpg" alt="/static/slidershow/images/8.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/9.jpg" alt="/static/slidershow/images/9.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/10.jpg" alt="/static/slidershow/images/10.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/11.jpg" alt="/static/slidershow/images/11.jpg"/></a>
+					<a href="#"><img src="/static/slidershow/images/thumbs/12.jpg" alt="/static/slidershow/images/12.jpg"/></a>
+				</div>
+				<a href="#" id="msg_thumb_next" class="msg_thumb_next"></a>
+				<a href="#" id="msg_thumb_prev" class="msg_thumb_prev"></a>
+				<a href="#" id="msg_thumb_close" class="msg_thumb_close"></a>
+				<span class="msg_loading"></span><!-- show when next thumb wrapper loading -->
+				</div>
+</div>
+<!--....侧边栏-->
+    </div>
+    <div class="content">
+      <div id="form_reg" class="btns">
+    <form method="POST" id="login" action="">
+        <br>
+        <br>
+        <p>
+            <label class="label_input" for="login_mail">邮箱</label><input class="login_mail" id="login_mail" name="mail" value="" type="text">
+        </p>
+        <div class="errtip" id="errtip_mail"></div>
+        <br>
+        <p>
+            <label class="label_input" for="login_password">密码</label><input class="login_password" id="login_password" name="password" value="" type="password">
+        </p>
+        <div class="errtip" id="errtip_password"></div>
+        <br>
+        <div class="cl" id="form_btn">
+            <span class="R">已有账号 ? <a href="/login">点此登录</a></span>
+            <span class="R btnw"><button type="submit" >注册</button></span>
+        </div>
+        <input type="hidden" name="_xsrf" value="c6ad0be0e93748229e0b8d0442844cbd">
+    </form>
+</div>
+    </div>
+  </div>
+</body>
+
+
+<script>
+    if($erro1==1){
+        jQuery("#errtip_mail").html('<center>$rmail 已经注册</center>');
+    }
+</script>

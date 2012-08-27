@@ -1,0 +1,11 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>My jQuery Test Page</title>	
+<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="myfirst.js"></script>
+</head>
+<body >
+<a href=#>Hello World</a>
+<div id="box">你好吗?</div>
+
+</body>

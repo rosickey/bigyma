@@ -1,0 +1,29 @@
+$def with (rmail,erro,erro1)
+<div id="form_reg" class="btns">
+    <form method="POST" id="login" action="">
+        <p>
+            <label class="label_input" for="login_mail">邮箱</label><input class="login_mail" id="login_mail" name="mail" value="" type="text">
+        </p>
+        <div class="errtip" id="errtip_mail"></div>
+        <p>
+            <label class="label_input" for="login_password">密码</label><input class="login_password" id="login_password" name="password" value="" type="password">
+        </p>
+        <div class="errtip" id="errtip_password"></div>
+        <div class="cl" id="form_btn">
+            <span class="R">
+                没有账号 ? <a href="/reg">点此注册</a>
+            </span>
+            <span class="btnw"><button type="submit" >登录</button></span>
+        </div>
+        <input type="hidden" name="_xsrf" value="c6ad0be0e93748229e0b8d0442844cbd">
+    </form>
+</div>
+<script>
+    if($erro==1){
+        jQuery("#errtip_mail").html('<center>$rmail 还未注册</center>');  
+    }
+    if($erro1==1){
+        jQuery("#errtip_password").html("<center>密码错误，重新输入</center>");
+        jQuery("#login_mail").val('$rmail');
+    }
+</script>

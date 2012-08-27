@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/bigyma/!svn/ver/337/2/weibopy
+END
+api.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/bigyma/!svn/ver/337/2/weibopy/api.py
+END
+error.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/weibopy/error.py
+END
+streaming.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/bigyma/!svn/ver/337/2/weibopy/streaming.py
+END
+cursor.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/bigyma/!svn/ver/337/2/weibopy/cursor.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/bigyma/!svn/ver/337/2/weibopy/__init__.py
+END
+parsers.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/bigyma/!svn/ver/337/2/weibopy/parsers.py
+END
+oauth.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/weibopy/oauth.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/weibopy/utils.py
+END
+auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/bigyma/!svn/ver/337/2/weibopy/auth.py
+END
+binder.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/bigyma/!svn/ver/337/2/weibopy/binder.py
+END
+cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/weibopy/cache.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/bigyma/!svn/ver/337/2/weibopy/models.py
+END

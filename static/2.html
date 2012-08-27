@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Simple charts with Open Flash Chart | Codeforest</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+ 
+swfobject.embedSWF(
+  "open-flash-chart.swf", "my_chart",
+  "550", "250", "9.0.0", "expressInstall.swf",
+  {"data-file":"1.php", "id":"eden"} );
+ 
+</script>
+ 
+<script type="text/javascript">
+ 
+// The chart object
+function chart(name) {
+	this.name = name;
+ 
+	this.image_saved = function(id) {
+		alert('saved:'+this.name+', id:'+id );
+	};
+}
+ 
+// create a new chart object
+var my_chart = new chart('chart 1');
+ 
+function done(id)
+{
+	alert("Finished upload. Id:"+id);
+}
+ 
+function post_image(debug)
+{
+	//
+	// My computer at home is called 'eden'
+	// so I want to POST the image to the
+	// ofc_upload_image.php script. I am also
+	// passing the name of the image file in
+	// as a GET variable.
+	//
+	url = "http://eden/open-flash-chart-2/php-ofc-library/ofc_upload_image.php?name=tmp.png";
+ 
+	//
+	// call the save function in the flash chart,
+	// ofc == open flash chart
+	//
+	var ofc = findSWF("my_chart");
+ 
+	// call the done() function when the image has been POSTed
+	x = ofc.post_image( url, 'done', debug );
+}
+ 
+function post_image_2(debug)
+{
+ 
+	url = "http://eden/open-flash-chart-2/php-ofc-library/ofc_upload_image.php?name=tmp.png";
+	var ofc = findSWF("my_chart");
+	// call our objects image_saved() method when finished
+	x = ofc.post_image( url, 'my_chart.image_saved', debug );
+}
+ 
+function ofc_ready()
+{
+	alert('ofc_ready');
+}
+ 
+function findSWF(movieName) {
+	if (navigator.appName.indexOf("Microsoft")!= -1) {
+		return window[movieName];
+	} else {
+		return document[movieName];
+	}
+}
+ 
+</script>

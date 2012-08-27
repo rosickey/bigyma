@@ -1,0 +1,164 @@
+﻿* { margin: 0; padding: 0; }
+
+html
+{
+	color: #999999;
+	background-color: #2f2a3e;
+	font: normal 76% "Arial","Trebuchet MS", "Lucida Grande",Verdana,  Sans-Serif;	
+}
+
+body { background-color: #c1bdcc; color: #2f2a3e; }
+
+
+/* Links */
+
+a { text-decoration: none; font-weight:  normal; border-bottom: 1px dotted #333333; }
+
+a:link { color: white; border-bottom-color: #2f2a3e; } 
+
+a.offsite { padding-right: 15px; background: transparent url("offsite.gif") right center no-repeat; }
+
+/* Lists */
+
+ul, ol
+{
+	margin: 1em 0;
+	line-height: 1.8em;
+}
+
+ol li { margin-left: 2.5em; }
+
+ul { padding-left: 2em; list-style-type: square; }
+
+#navigation
+{
+	width: 100%; 
+	float: left;
+	clear: both;
+	background-color: #51476a;
+}
+/*#navigation ul { list-style-type: none; margin: 0 auto; padding: 0; width: 850px; }
+#navigation li { float: left; }
+#navigation a
+{
+	float: left;
+	display: block;
+	color: #c5c5c5;
+	padding: 5px 8px;
+	margin-top: 10px;
+	border-bottom-width: 0;
+}
+
+#navigation li.active a
+{
+	color: #FFCC00;
+	background-color: #999999;
+}
+#navigation a:hover, #navigation a:active { color: #CCCCFF; background-color: #645a7d; }
+*/
+
+
+/*login*/
+.login input[type=text] 
+{
+	border: 1px solid #D4D0C8;
+	width: 100px;
+	font-family: Verdana, "Courier New"; font-size: .93em;
+}
+.login input[type=password] 
+{
+	border: 1px solid #D4D0C8;
+	width: 100px;
+	font-family: Verdana, "Courier New"; font-size: .93em;
+}
+.login input[type=submit] 
+{
+	border: 1px solid #D4D0C8;
+	width: 40px;
+	font-family: Verdana, "Courier New"; font-size: .93em;
+}
+span
+{
+color:white
+}
+
+#content
+{
+	clear: both;
+	width: 850px;
+	margin: 0 auto;
+	padding: 0px 0; 
+	background-color: #c1bdcc;
+}
+.mynews
+{
+color:black;
+border-bottom: 1px dotted gray;
+}
+.mynewscontent
+{
+width:50%;
+color:black;
+background-color: #FF9933;
+border: 1px dotted gray;
+padding:7px 30px 10px 25px;
+}
+.mynewscontent1
+{
+width:50%;
+color:black;
+background-color: #CCCCCC;
+border: 1px dotted gray;
+padding:7px 30px 10px 25px;
+}
+#table2 td
+{
+padding:5px 10px 5px 10px;
+}
+.myeven
+{
+text-align:left;
+background-color: #666699;
+color:white;
+
+}
+.myodd
+{
+text-align:left;
+background-color: #669999;
+color:white;
+
+}
+.mytr
+{
+background-color: #FF9933;
+color:black;
+
+}
+
+.mytd
+{
+text-align:right;
+background-color: #666666;
+color:white;
+
+}
+.myshorttable
+{
+width:50px;
+}
+
+.myhide
+{
+display:none;
+
+}
+.myevenmore
+{
+
+background-color: #FFFFCC;
+border: 1px dotted gray;
+padding:7px 30px 10px 25px;
+color:black;
+
+}

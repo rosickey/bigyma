@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/bigyma/!svn/ver/337/2/static/bootstrap
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/bigyma/!svn/ver/337/2/static/bootstrap/LICENSE
+END
+bootstrap.css
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/bigyma/!svn/ver/337/2/static/bootstrap/bootstrap.css
+END
+bootstrap.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/bigyma/!svn/ver/337/2/static/bootstrap/bootstrap.min.css
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/bigyma/!svn/ver/337/2/static/bootstrap/README.md
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/bigyma/!svn/ver/337/2/static/bootstrap/Makefile
+END
