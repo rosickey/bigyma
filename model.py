@@ -1,7 +1,6 @@
 import web
 import sae.const
 db = web.database(dbn='mysql',host='w.rdc.sae.sina.com.cn',port=int(sae.const.MYSQL_PORT),db='app_bigyma',user=sae.const.MYSQL_USER,pw=sae.const.MYSQL_PASS)
-#db = web.database(dbn='mysql',db='rosickey',user='root',pw='rosickey')
 
 
 def get_todos():
