@@ -15,11 +15,8 @@ import time
 import data_theme
 import time_operate 
 import rule
-CONSUME_KEY= "1362908672"
-#CONSUME_KEY= "2197979252"
-2197979252
-CONSUME_SECRET ="5cb7957df10da70a7e0b53326270e204"
-#CONSUME_SECRET ="913dea49ffecb131218740ad7825c410"
+CONSUME_KEY= 
+CONSUME_SECRET =
 month_label = ['Jan','Feb','Mar','Apr','May',\
                 'Jun' ,'Jul' ,'Aug' ,'Sep' ,'Oct',\
                 'Nov' ,'Dec']
